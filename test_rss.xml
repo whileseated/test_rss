@@ -1,34 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Test Podcast</title>
-    <link>https://example.com/podcast</link>
-    <description>A test podcast with three episodes</description>
-    <language>en-us</language>
-    <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Test Podcast Series</title>
+        <link>https://example.com/podcast</link>
+        <language>en-us</language>
+        <description>A test podcast series with three episodes spanning different dates.</description>
+        <copyright>© 2025 Test Podcast Series</copyright>
+        <lastBuildDate>Sun, 31 Mar 2025 12:00:00 GMT</lastBuildDate>
+        <pubDate>Sun, 31 Mar 2025 12:00:00 GMT</pubDate>
+        <itunes:title>Test Podcast Series</itunes:title>
+        <itunes:author>Test Author</itunes:author>
+        <itunes:summary>A test podcast series with three episodes spanning different dates.</itunes:summary>
+        <itunes:type>episodic</itunes:type>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:image href="https://example.com/podcast-cover.jpg"/>
+        <itunes:category text="Technology"/>
+        <itunes:category text="News"/>
+        <itunes:keywords>test, podcast, technology, news</itunes:keywords>
+        
+        <item>
+            <title>Episode 1: The Beginning</title>
+            <link>https://example.com/podcast/episode1</link>
+            <guid>https://example.com/podcast/episode1</guid>
+            <description>This is the first episode of our test podcast series.</description>
+            <content:encoded><![CDATA[<p>This is the first episode of our test podcast series.</p>]]></content:encoded>
+            <pubDate>Sun, 31 Mar 2025 12:00:00 GMT</pubDate>
+            <enclosure url="https://example.com/podcast/episode1.mp3" length="1234567" type="audio/mpeg"/>
+            <itunes:title>Episode 1: The Beginning</itunes:title>
+            <itunes:author>Test Author</itunes:author>
+            <itunes:summary>This is the first episode of our test podcast series.</itunes:summary>
+            <itunes:duration>00:30:00</itunes:duration>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:episode>1</itunes:episode>
+            <itunes:season>1</itunes:season>
+        </item>
 
-    <item>
-      <title>Episode 3: The Finale</title>
-      <link>https://example.com/podcast/ep3</link>
-      <description>The third episode of the test podcast.</description>
-      <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
-      <guid>https://example.com/podcast/ep3</guid>
-    </item>
+        <item>
+            <title>Episode 2: The Middle</title>
+            <link>https://example.com/podcast/episode2</link>
+            <guid>https://example.com/podcast/episode2</guid>
+            <description>This is the second episode of our test podcast series.</description>
+            <content:encoded><![CDATA[<p>This is the second episode of our test podcast series.</p>]]></content:encoded>
+            <pubDate>Sun, 07 Apr 2025 12:00:00 GMT</pubDate>
+            <enclosure url="https://example.com/podcast/episode2.mp3" length="1234567" type="audio/mpeg"/>
+            <itunes:title>Episode 2: The Middle</itunes:title>
+            <itunes:author>Test Author</itunes:author>
+            <itunes:summary>This is the second episode of our test podcast series.</itunes:summary>
+            <itunes:duration>00:30:00</itunes:duration>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:episode>2</itunes:episode>
+            <itunes:season>1</itunes:season>
+        </item>
 
-    <item>
-      <title>Episode 2: The Middle</title>
-      <link>https://example.com/podcast/ep2</link>
-      <description>The second episode of the test podcast.</description>
-      <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
-      <guid>https://example.com/podcast/ep2</guid>
-    </item>
-
-    <item>
-      <title>Episode 1: The Beginning</title>
-      <link>https://example.com/podcast/ep1</link>
-      <description>The first episode of the test podcast.</description>
-      <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
-      <guid>https://example.com/podcast/ep1</guid>
-    </item>
-  </channel>
-</rss>
+        <item>
+            <title>Episode 3: The Future</title>
+            <link>https://example.com/podcast/episode3</link>
+            <guid>https://example.com/podcast/episode3</guid>
+            <description>This is the third episode of our test podcast series.</description>
+            <content:encoded><![CDATA[<p>This is the third episode of our test podcast series.</p>]]></content:encoded>
+            <pubDate>Sun, 14 Apr 2025 12:00:00 GMT</pubDate>
+            <enclosure url="https://example.com/podcast/episode3.mp3" length="1234567" type="audio/mpeg"/>
+            <itunes:title>Episode 3: The Future</itunes:title>
+            <itunes:author>Test Author</itunes:author>
+            <itunes:summary>This is the third episode of our test podcast series.</itunes:summary>
+            <itunes:duration>00:30:00</itunes:duration>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:episode>3</itunes:episode>
+            <itunes:season>1</itunes:season>
+        </item>
+    </channel>
+</rss> 
