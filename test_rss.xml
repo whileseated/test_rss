@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Podcast</title>
+    <link>https://example.com/podcast</link>
+    <description>A test podcast with three episodes</description>
+    <language>en-us</language>
+    <pubDate>Mon, 31 Mar 2025 00:00:00 GMT</pubDate>
+
+    <item>
+      <title>Episode 3: The Finale</title>
+      <link>https://example.com/podcast/ep3</link>
+      <description>The third episode of the test podcast.</description>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
+      <guid>https://example.com/podcast/ep3</guid>
+    </item>
+
+    <item>
+      <title>Episode 2: The Middle</title>
+      <link>https://example.com/podcast/ep2</link>
+      <description>The second episode of the test podcast.</description>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 GMT</pubDate>
+      <guid>https://example.com/podcast/ep2</guid>
+    </item>
+
+    <item>
+      <title>Episode 1: The Beginning</title>
+      <link>https://example.com/podcast/ep1</link>
+      <description>The first episode of the test podcast.</description>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
+      <guid>https://example.com/podcast/ep1</guid>
+    </item>
+  </channel>
+</rss>
